@@ -1,0 +1,77 @@
+
+.container2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 350px; 
+  }
+  .card2 {
+    border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  background-image:url('https://img.freepik.com/premium-photo/blue-house-with-blue-umbrella-blue-background_809175-112.jpg?size=626&ext=jpg&ga=GA1.2.801941692.1694189064&semt=ais');
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  padding: 20px;
+  cursor: pointer;
+  width: 700px;
+  
+  }
+  
+  .card2:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-body2 {
+    padding: 20px;
+  }
+  
+  .card-title2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text2 p {
+    font-size: 16px;
+    line-height: 1.5;
+    color:white;
+  }
+  
+  /* Button styles */
+  .btn-primary2 {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+  }
+  
+  .btn-primary2:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card2 {
+      width: 100%;
+    }
+  }
+  

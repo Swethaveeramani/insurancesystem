@@ -1,0 +1,83 @@
+
+.container3 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 350px; 
+  }
+  .card3 {
+    border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  background-image:url('https://img.freepik.com/premium-photo/car-protection-safety-assurance-concept-car-insurance-web-banner-design-small-blue-automobile-hatchback-blue-umbrella-isolated-white-background-3d-rendering_156429-3257.jpg?size=626&ext=jpg&ga=GA1.2.801941692.1694189064&semt=ais');
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  padding: 20px;
+  cursor: pointer;
+  width: 700px;
+  
+  }
+  
+  .card3:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-body3 {
+    padding: 20px;
+  }
+  
+  .card-title3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text3 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: cadetblue;
+  }
+  
+  .card-text3 p {
+    font-size: 16px;
+    line-height: 1.5;
+    color:black;
+  }
+  
+  /* Button styles */
+  .btn-primary3 {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+  }
+  
+  .btn-primary3:hover {
+    background-color: #0056b3;
+  }
+  .space-between-cards {
+    margin-bottom: 80px; 
+    justify-content: space-between;
+
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container3 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card3 {
+      width: 100%;
+    }
+  }
+  

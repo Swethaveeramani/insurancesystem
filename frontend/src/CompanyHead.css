@@ -1,0 +1,27 @@
+
+.card22 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .company-header {
+    text-align: center;
+    padding: 20px; /* Increased padding for more spacing */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 8px;
+  }
+  
+  /* Style for the company name */
+  .company-name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Add some spacing between the card and the rest of the content */
+  .card22 + * {
+    margin-top: 20px;
+  }
+  

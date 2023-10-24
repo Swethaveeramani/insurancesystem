@@ -1,0 +1,38 @@
+.container19 {
+    display: flex;
+    justify-content: center;
+  }
+  .card19 {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color:rgb(148, 197, 240);
+  }
+  
+  .card-body19 {
+    padding: 20px;
+  }
+  
+  .card-title19 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text19 {
+    font-size: 16px;
+  }
+  .card19 {
+    transition: transform 0.2s;
+  }
+  
+  .card19:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  .premium-card-row {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+  }

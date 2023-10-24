@@ -1,0 +1,94 @@
+/* Contact.css */
+
+.contact-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.life-insurance-button,
+.home-insurance-button,
+.car-insurance-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width:200px;
+}
+
+.life-insurance-button:hover,
+.home-insurance-button:hover,
+.car-insurance-button:hover {
+  background-color: #0056b3;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #59dfd6;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  color: rgb(68, 64, 64);
+  
+}
+
+/* Hover effect for the boxes */
+.box:hover {
+  background-color: #f3a3ce;
+  color: rgb(54, 52, 52);
+}
+/* Additional CSS for Contact.css */
+
+/* Style for the buttons within the details section */
+.details-button {
+  padding: 10px 20px;
+  background-color: #f3a3ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.details-button:hover {
+  background-color: #c44c6f;
+}
+
+/* Style for the title within the box */
+.box h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+/* Style for additional details or descriptions within the box */
+.box p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* Additional styles for responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

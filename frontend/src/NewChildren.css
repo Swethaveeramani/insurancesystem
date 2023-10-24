@@ -1,0 +1,69 @@
+/* Styles for the container */
+.container9 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-photo/soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner_1258-71580.jpg?size=626&ext=jpg&ga=GA1.2.801941692.1694189064&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    color: rgb(16, 137, 137);
+    margin-bottom: 20px;
+}
+
+/* Subheading styles */
+h3 {
+    margin-top: 20px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Input and select styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style checkboxes */
+input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+/* Style the submit button on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

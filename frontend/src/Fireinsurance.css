@@ -1,0 +1,88 @@
+/* Fireinsurance.css */
+
+/* Style for the premium calculator container */
+.premium-calculator {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Style for the premium calculator title */
+.premium-calculator-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style for labels and inputs */
+.premium-calculator-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.premium-calculator-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the coverage type select */
+.premium-calculator-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the Calculate Premium button */
+.premium-calculator-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style for the premium result */
+.premium-calculator-result {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Style for the download button */
+.download-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Style for the Header and Footer components (you can customize these styles as needed) */
+/* For example:
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+*/

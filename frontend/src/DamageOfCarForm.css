@@ -1,0 +1,58 @@
+/* Add styling for the form container */
+.container17 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-photo/soft-vintage-gradient-blur-background-with-pastel-colored-well-use-as-studio-room-product-presentation-banner_1258-71580.jpg?size=626&ext=jpg&ga=GA1.2.801941692.1694189064&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form headings */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Input and Textarea Styles */
+  input[type="text"],
+  input[type="file"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Checkbox Styles */
+  input[type="checkbox"] {
+    margin-top: 5px;
+  }
+  
+  /* Submit Button Styles */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* Submit Button Hover Styles */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

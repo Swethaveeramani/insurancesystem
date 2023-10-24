@@ -1,0 +1,101 @@
+/* Main container */
+.payment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Payment methods container */
+.payment-methods {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+}
+
+/* Payment method cards */
+.payment-method {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.payment-method:hover {
+  background-color: #f5f5f5;
+}
+
+.payment-icon {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+/* ATM details container */
+.atm-details {
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  
+}
+
+/* Input fields */
+input {
+  width:400px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #007BFF;
+}
+
+/* Amount and Process Payment button */
+.amount-payment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+ 
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Payment result container */
+.payment-result {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.payment-image {
+  width: 200px;
+  margin-top: 20px;
+}
